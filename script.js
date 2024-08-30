@@ -8,7 +8,8 @@ function cancel() {
     navbar.style.transform = "translateY(-500px)";
 }
 
-// Typewriter effect
+
+// Typewriter effect for home
 const texts = [
     "Student",
     "Content Developer",
