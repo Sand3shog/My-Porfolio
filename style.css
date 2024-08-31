@@ -330,3 +330,175 @@ section {
     color: #077b32;
     text-shadow: 0 0 10px #077b32;
 }
+
+
+/* contact */
+.contact-section {
+    width: 100%;
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
+    color: white;
+}
+
+.contact-container {
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+}
+
+.contact-container h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #077b32;
+    text-shadow: 0 0 10px #077b32;
+}
+
+.contact-container p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #077b32;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+button[type="submit"]:hover {
+    background-color: #055826;
+}
+
+
+/* skills */
+/* Overall styling for the skills section */
+.skills-section {
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
+    color: white;
+    padding: 40px 0;
+}
+
+.skills-container {
+    width: 80%;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.skills-container h1 {
+    font-size: 3rem;
+    color: #077b32;
+    text-shadow: 0 0 10px #077b32;
+    margin-bottom: 20px;
+}
+
+.skills-container p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.skill-item {
+    background: #222;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-item i {
+    font-size: 3rem;
+    color: #077b32;
+    margin-bottom: 15px;
+}
+
+.skill-item h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.skill-item p {
+    font-size: 1.1rem;
+    color: #bbb;
+}
+
+.skill-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(0, 123, 50, 0.6);
+}
+
+.skill-item:hover i, .skill-item:hover h3 {
+    color: #fff;
+    text-shadow: 0 0 10px #077b32;
+}
+
+/* Tooltip styling */
+.tooltip {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #077b32;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+}
+
+/* Expanded detail styling */
+.skill-detail {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #333;
+    border-radius: 10px;
+    color: #bbb;
+    font-size: 1rem;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+
+
